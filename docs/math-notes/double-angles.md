@@ -23,5 +23,5 @@ $$
 ## Tangent Double Angle:
 
 $$
-tan(2θ) = \tfrac{2sin(θ)}{2cos(θ)}
+tan(2θ) = \tfrac{sin(2θ)}{cos(2θ)}
 $$
