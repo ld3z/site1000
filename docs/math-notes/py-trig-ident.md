@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Pythagorean Trig Identities
+# :mdi-math-integral-box: Pythagorean Trig Identities
 
 Here are all three pythagorean trigonometry identities:
 

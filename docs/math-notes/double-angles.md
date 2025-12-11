@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Double Angles
+# :tabler-math-pi-divide-2: Double Angles
 
 Here are all double angle formulas:
 
