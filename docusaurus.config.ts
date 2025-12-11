@@ -81,6 +81,7 @@ const config: Config = {
         indexBlog: false,
       },
     ],
+    "docusaurus-plugin-image-zoom",
   ],
 
   themeConfig: {
