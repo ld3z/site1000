@@ -38,7 +38,7 @@ export default function IconifyInline() {
           const before = text.slice(lastIndex, match.index);
           if (before) frag.appendChild(document.createTextNode(before));
           const iconSpan = document.createElement('span');
-          iconSpan.className = 'iconify-shortcode inline-block align-middle';
+          iconSpan.className = 'iconify-shortcode';
           const resolved = resolveIconToken(token);
           if (resolved) {
             iconSpan.setAttribute('data-icon', resolved);
@@ -72,7 +72,7 @@ export default function IconifyInline() {
         try {
           // Render Icon into the span using a dedicated root
           const root = createRoot(span);
-          root.render(React.createElement(Icon, { icon, className: 'w-5 h-5 mx-1' }));
+          root.render(React.createElement(Icon, { icon }));
           (span as HTMLElement).dataset.rendered = '1';
           roots.push(root);
         } catch (e) {

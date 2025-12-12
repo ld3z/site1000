@@ -82,7 +82,6 @@ const config: Config = {
       },
     ],
     "docusaurus-plugin-image-zoom",
-    "./src/plugins/tailwind-config.js"
   ],
 
   themeConfig: {
