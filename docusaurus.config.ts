@@ -94,12 +94,6 @@ const config: Config = {
 
   plugins: [
     preactPlugin,
-    [
-      "@cmfcmf/docusaurus-search-local",
-      {
-        indexBlog: false,
-      },
-    ],
     "docusaurus-plugin-image-zoom",
   ],
 

@@ -21,3 +21,6 @@ yarn-error.log*
 
 # Default files
 /default
+
+# Search index
+/static/search-index.json
