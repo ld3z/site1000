@@ -6,6 +6,24 @@ import rehypeKatex from "rehype-katex";
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
+function preactPlugin() {
+  return {
+    name: "preact-plugin",
+    configureWebpack() {
+      return {
+        resolve: {
+          alias: {
+            react: "preact/compat",
+            "react-dom/test-utils": "preact/test-utils",
+            "react-dom": "preact/compat",
+            "react/jsx-runtime": "preact/jsx-runtime",
+          },
+        },
+      };
+    },
+  };
+}
+
 const config: Config = {
   title: "Site 1000",
   tagline: "Notes go here.",
@@ -75,6 +93,7 @@ const config: Config = {
   ],
 
   plugins: [
+    preactPlugin,
     [
       "@cmfcmf/docusaurus-search-local",
       {

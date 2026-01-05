@@ -23,13 +23,14 @@
     "@fontsource/lexend": "^5.2.11",
     "@iconify/react": "^6.0.2",
     "@mdx-js/react": "^3.1.1",
+    "@preact/compat": "^17.1.2",
     "clsx": "^2.1.1",
     "docusaurus-plugin-image-zoom": "^3.0.1",
     "katex": "^0.16.27",
     "postcss": "^8.5.6",
+    "preact": "^10.26.9",
+    "preact-render-to-string": "^6.5.13",
     "prism-react-renderer": "^2.4.1",
-    "react": "^19.2.3",
-    "react-dom": "^19.2.3",
     "rehype-katex": "^7.0.1",
     "remark-math": "^6.0.0"
   },
@@ -53,5 +54,11 @@
   },
   "engines": {
     "node": ">=20.0"
+  },
+  "pnpm": {
+    "overrides": {
+      "react": "npm:@preact/compat@^17.1.2",
+      "react-dom": "npm:@preact/compat@^17.1.2"
+    }
   }
 }
