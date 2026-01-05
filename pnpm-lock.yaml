@@ -37,8 +37,8 @@ importers:
         specifier: ^3.1.1
         version: 3.1.1(@types/react@19.2.7)(react@19.2.3)
       '@preact/compat':
-        specifier: ^17.1.2
-        version: 17.1.2(preact@10.28.0)
+        specifier: ^18.3.1
+        version: 18.3.1(preact@10.28.1)
       clsx:
         specifier: ^2.1.1
         version: 2.1.1
@@ -52,11 +52,11 @@ importers:
         specifier: ^8.5.6
         version: 8.5.6
       preact:
-        specifier: ^10.26.9
-        version: 10.28.0
+        specifier: ^10.28.1
+        version: 10.28.1
       preact-render-to-string:
-        specifier: ^6.5.13
-        version: 6.6.5(preact@10.28.0)
+        specifier: ^6.6.5
+        version: 6.6.5(preact@10.28.1)
       prism-react-renderer:
         specifier: ^2.4.1
         version: 2.4.1(react@19.2.3)
@@ -1717,8 +1717,8 @@ packages:
   '@polka/url@1.0.0-next.29':
     resolution: {integrity: sha512-wwQAWhWSuHaag8c4q/KN/vCoeOJYshAIvMQwD4GpSb3OiZklFfvAgmj0VCBBImRpuF/aFgIRzllXlVX93Jevww==}
 
-  '@preact/compat@17.1.2':
-    resolution: {integrity: sha512-7pOZN9lMDDRQ+6aWvjwTp483KR8/zOpfS83wmOo3zfuLKdngS8/5RLbsFWzFZMGdYlotAhX980hJ75bjOHTwWg==}
+  '@preact/compat@18.3.1':
+    resolution: {integrity: sha512-Kog4PSRxtT4COtOXjsuQPV1vMXpUzREQfv+6Dmcy9/rMk0HOPK0HTE9fspFjAmY8R80T/T8gtgmZ68u5bOSngw==}
     peerDependencies:
       preact: '*'
 
@@ -4840,8 +4840,8 @@ packages:
     peerDependencies:
       preact: '>=10 || >= 11.0.0-0'
 
-  preact@10.28.0:
-    resolution: {integrity: sha512-rytDAoiXr3+t6OIP3WGlDd0ouCUG1iCWzkcY3++Nreuoi17y6T5i/zRhe6uYfoVcxq6YU+sBtJouuRDsq8vvqA==}
+  preact@10.28.1:
+    resolution: {integrity: sha512-u1/ixq/lVQI0CakKNvLDEcW5zfCjUQfZdK9qqWuIJtsezuyG6pk9TWj75GMuI/EzRSZB/VAE43sNWWZfiy8psw==}
 
   pretty-error@4.0.0:
     resolution: {integrity: sha512-AoJ5YMAcXKYxKhuJGdcvse+Voc6v1RgnsR3nWcYU7q4t6z0Q6T86sv5Zq8VIRbOWWFpvdGE83LtdSMNd+6Y0xw==}
@@ -5934,7 +5934,7 @@ snapshots:
       '@algolia/client-search': 4.25.3
       algoliasearch: 4.25.3
       htm: 3.1.1
-      preact: 10.28.0
+      preact: 10.28.1
     transitivePeerDependencies:
       - search-insights
 
@@ -8326,9 +8326,9 @@ snapshots:
 
   '@polka/url@1.0.0-next.29': {}
 
-  '@preact/compat@17.1.2(preact@10.28.0)':
+  '@preact/compat@18.3.1(preact@10.28.1)':
     dependencies:
-      preact: 10.28.0
+      preact: 10.28.1
 
   '@sec-ant/readable-stream@0.4.1': {}
 
@@ -11947,11 +11947,11 @@ snapshots:
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
-  preact-render-to-string@6.6.5(preact@10.28.0):
+  preact-render-to-string@6.6.5(preact@10.28.1):
     dependencies:
-      preact: 10.28.0
+      preact: 10.28.1
 
-  preact@10.28.0: {}
+  preact@10.28.1: {}
 
   pretty-error@4.0.0:
     dependencies:
