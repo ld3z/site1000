@@ -16,12 +16,12 @@ export default defineConfig({
     starlight({
       title: "Site1k",
       customCss: [
-        "./src/styles/custom.css",
-        "@fontsource-variable/Lexend",
-        "@fontsource-variable/jetbrains-mono",
-        "./src/styles/inline.css",
-        "./src/styles/table.css",
-      ],
+         "./src/styles/custom.css",
+         "@fontsource-variable/lexend",
+         "@fontsource-variable/jetbrains-mono",
+         "./src/styles/inline.css",
+         "./src/styles/table.css",
+       ],
       sidebar: [
         { label: "Home", link: "/" },
         {
