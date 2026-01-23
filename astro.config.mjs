@@ -53,6 +53,10 @@ export default defineConfig({
               picture: "https://github.com/ld3z.png",
               url: "https://github.com/ld3z",
             },
+            math: {
+              name: "Math",
+              picture: "https://static.vecteezy.com/system/resources/previews/028/074/822/non_2x/math-diagrams-and-tools-math-class-concept-illustration-vector.jpg",
+            },
           },
         }),
         starlightImageZoom(),
