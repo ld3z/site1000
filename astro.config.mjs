@@ -16,12 +16,12 @@ export default defineConfig({
     starlight({
       title: "Site1k",
       customCss: [
-         "./src/styles/custom.css",
-         "@fontsource-variable/lexend",
-         "@fontsource-variable/jetbrains-mono",
-         "./src/styles/inline.css",
-         "./src/styles/table.css",
-       ],
+        "./src/styles/custom.css",
+        "@fontsource-variable/lexend",
+        "@fontsource-variable/jetbrains-mono",
+        "./src/styles/inline.css",
+        "./src/styles/table.css",
+      ],
       sidebar: [
         { label: "Home", link: "/" },
         {
@@ -42,6 +42,18 @@ export default defineConfig({
         starlightKatex(),
         starlightBlog({
           title: "Blog",
+          metrics: {
+            readingTime: true,
+            words: "total",
+          },
+          authors: {
+            ld3z: {
+              name: "ld3z",
+              title: "Developer",
+              picture: "https://github.com/ld3z.png",
+              url: "https://github.com/ld3z",
+            },
+          },
         }),
         starlightImageZoom(),
       ],
